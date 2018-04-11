@@ -140,6 +140,21 @@ namespace ShareAdmin.Web
                     .IncludeDirectory("~/Common/Scripts", "*.js", true)
                     .IncludeDirectory("~/App/Main", "*.js", true)
                 );
+
+
+            // For main site
+            bundles.Add(
+                new StyleBundle("~/Bundles/main-site/css")
+                    .IncludeDirectory("~/css/main-site", "*.css", true)
+                    .IncludeDirectory("~/css/main-site", "*.min.css", true)
+                );
+
+            bundles.Add(
+                new ScriptBundle("~/Bundles/main-site/js")
+                    .IncludeDirectory("~/js/main-site", "*.js", true)
+                    .IncludeDirectory("~/js/main-site", "*.min.js", true)
+            );
+
         }
     }
 }

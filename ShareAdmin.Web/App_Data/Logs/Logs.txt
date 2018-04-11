@@ -1,0 +1,1137 @@
+DEBUG 2018-04-11 10:30:38,273 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-11 10:30:40,131 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-04-11 10:30:40,153 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.Web.ShareAdminWebModule, ShareAdmin.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:30:40,158 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.ShareAdminDataModule, ShareAdmin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:30:40,158 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:30:40,159 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:30:40,159 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:30:40,160 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:30:40,161 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:30:40,161 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:30:40,162 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.ShareAdminCoreModule, ShareAdmin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:30:40,162 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.ShareAdminApplicationModule, ShareAdmin.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:30:40,163 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:30:40,163 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.Api.ShareAdminWebApiModule, ShareAdmin.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:30:40,163 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:30:40,164 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:30:40,164 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:30:40,164 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:30:40,165 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:30:40,174 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-04-11 10:30:42,632 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 10:30:42,632 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 10:30:42,632 [1    ] o.Configuration.LanguageManagementConfig - Converted ShareAdmin (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 10:30:42,632 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 10:30:43,839 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ShareAdmin.EntityFramework.ShareAdminDbContext, ShareAdmin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:30:45,849 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-11 10:30:45,909 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-11 10:30:45,926 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-11 10:30:45,935 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ShareAdmin
+DEBUG 2018-04-11 10:30:45,939 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-11 10:30:46,077 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-11 10:30:46,218 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-04-11 10:30:46,218 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-11 10:30:46,226 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-11 10:30:46,226 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Users.Dto.CreateUserDto
+DEBUG 2018-04-11 10:30:46,227 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Users.Dto.UpdateUserDto
+DEBUG 2018-04-11 10:30:46,227 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Users.Dto.UserDto
+DEBUG 2018-04-11 10:30:46,227 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-11 10:30:46,227 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Roles.Dto.PermissionDto
+DEBUG 2018-04-11 10:30:46,227 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Roles.Dto.RoleDto
+DEBUG 2018-04-11 10:30:46,227 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-11 10:30:46,227 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-04-11 10:30:46,227 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.MultiTenancy.Dto.TenantDto
+DEBUG 2018-04-11 10:30:46,227 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-04-11 10:30:46,228 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-04-11 10:30:49,012 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-04-11 10:30:49,014 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-04-11 10:30:49,016 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-04-11 10:30:49,019 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-04-11 10:30:49,022 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-04-11 10:30:49,024 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-04-11 10:31:40,166 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-11 10:31:41,147 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-04-11 10:31:41,164 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.Web.ShareAdminWebModule, ShareAdmin.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:31:41,168 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.ShareAdminDataModule, ShareAdmin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:31:41,169 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:31:41,169 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:31:41,169 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:31:41,170 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:31:41,171 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:31:41,171 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:31:41,171 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.ShareAdminCoreModule, ShareAdmin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:31:41,173 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.ShareAdminApplicationModule, ShareAdmin.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:31:41,173 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:31:41,174 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.Api.ShareAdminWebApiModule, ShareAdmin.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:31:41,174 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:31:41,175 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:31:41,175 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:31:41,175 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:31:41,176 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:31:41,186 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-04-11 10:31:42,434 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 10:31:42,434 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 10:31:42,434 [1    ] o.Configuration.LanguageManagementConfig - Converted ShareAdmin (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 10:31:42,434 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 10:31:42,967 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ShareAdmin.EntityFramework.ShareAdminDbContext, ShareAdmin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:31:44,389 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-11 10:31:44,435 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-11 10:31:44,444 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-11 10:31:44,448 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ShareAdmin
+DEBUG 2018-04-11 10:31:44,450 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-11 10:31:44,555 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-11 10:31:44,638 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-04-11 10:31:44,638 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-11 10:31:44,642 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-11 10:31:44,643 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Users.Dto.CreateUserDto
+DEBUG 2018-04-11 10:31:44,643 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Users.Dto.UpdateUserDto
+DEBUG 2018-04-11 10:31:44,643 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Users.Dto.UserDto
+DEBUG 2018-04-11 10:31:44,643 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-11 10:31:44,643 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Roles.Dto.PermissionDto
+DEBUG 2018-04-11 10:31:44,643 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Roles.Dto.RoleDto
+DEBUG 2018-04-11 10:31:44,643 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-11 10:31:44,643 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-04-11 10:31:44,643 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.MultiTenancy.Dto.TenantDto
+DEBUG 2018-04-11 10:31:44,643 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-04-11 10:31:44,643 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-04-11 10:31:46,548 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-04-11 10:31:46,550 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-04-11 10:31:46,551 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-04-11 10:31:46,552 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-04-11 10:31:46,554 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-04-11 10:31:46,555 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-04-11 10:32:15,911 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"436281cb-2c47-4e39-9005-98304ba863a3","IpAddress":"10.208.232.38","TenantId":null,"UserId":1,"ConnectTime":"2018-04-11T10:32:15.9003476+02:00","Properties":{}}
+DEBUG 2018-04-11 10:32:16,035 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 436281cb-2c47-4e39-9005-98304ba863a3
+DEBUG 2018-04-11 10:32:29,057 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 436281cb-2c47-4e39-9005-98304ba863a3
+DEBUG 2018-04-11 10:32:31,335 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c0eb6d89-2df9-4467-804f-ae9a496cce97","IpAddress":"10.208.232.38","TenantId":null,"UserId":1,"ConnectTime":"2018-04-11T10:32:31.3359769+02:00","Properties":{}}
+DEBUG 2018-04-11 10:32:31,365 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: c0eb6d89-2df9-4467-804f-ae9a496cce97
+DEBUG 2018-04-11 10:34:31,184 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: c0eb6d89-2df9-4467-804f-ae9a496cce97
+DEBUG 2018-04-11 10:38:29,376 [26   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"78779216-3740-4aff-a065-ed9d051493dc","IpAddress":"10.208.232.38","TenantId":null,"UserId":null,"ConnectTime":"2018-04-11T10:38:29.3762003+02:00","Properties":{}}
+DEBUG 2018-04-11 10:38:29,409 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 78779216-3740-4aff-a065-ed9d051493dc
+DEBUG 2018-04-11 10:38:30,148 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 78779216-3740-4aff-a065-ed9d051493dc
+DEBUG 2018-04-11 10:38:35,965 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"01871167-a2d3-4cde-a629-fd474df50ec3","IpAddress":"10.208.232.38","TenantId":null,"UserId":null,"ConnectTime":"2018-04-11T10:38:35.9651795+02:00","Properties":{}}
+DEBUG 2018-04-11 10:38:36,418 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 01871167-a2d3-4cde-a629-fd474df50ec3
+WARN  2018-04-11 10:38:40,115 [23   ] nHandling.AbpApiExceptionFilterAttribute - Current user did not login to the application!
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.PerformAsyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   at Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.TenantAppServiceProxy.GetAll(PagedResultRequestDto input)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.DynamicApiController`1Proxy_1.GetAll(PagedResultRequestDto input)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_3.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+WARN  2018-04-11 10:38:41,499 [37   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2018-04-11 10:38:41,669 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 01871167-a2d3-4cde-a629-fd474df50ec3
+DEBUG 2018-04-11 10:51:16,730 [15   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2018-04-11 10:51:16,732 [15   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-11 10:51:16,733 [15   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-11 10:51:16,733 [15   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2018-04-11 10:59:49,576 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-11 10:59:49,606 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-04-11 10:59:49,620 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.Web.ShareAdminWebModule, ShareAdmin.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:59:49,623 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.ShareAdminDataModule, ShareAdmin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:59:49,624 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:59:49,624 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:59:49,624 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:59:49,625 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:59:49,625 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:59:49,626 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:59:49,626 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.ShareAdminCoreModule, ShareAdmin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:59:49,626 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.ShareAdminApplicationModule, ShareAdmin.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:59:49,627 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:59:49,627 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.Api.ShareAdminWebApiModule, ShareAdmin.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:59:49,627 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:59:49,628 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:59:49,628 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:59:49,628 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:59:49,628 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:59:49,636 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-04-11 10:59:50,128 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 10:59:50,128 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 10:59:50,128 [1    ] o.Configuration.LanguageManagementConfig - Converted ShareAdmin (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 10:59:50,128 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 10:59:51,153 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ShareAdmin.EntityFramework.ShareAdminDbContext, ShareAdmin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 10:59:56,955 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-11 10:59:57,010 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-11 10:59:57,025 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-11 10:59:57,030 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ShareAdmin
+DEBUG 2018-04-11 10:59:57,034 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-11 10:59:57,177 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-11 10:59:57,317 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-04-11 10:59:57,317 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-11 10:59:57,325 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-11 10:59:57,326 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Users.Dto.CreateUserDto
+DEBUG 2018-04-11 10:59:57,326 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Users.Dto.UpdateUserDto
+DEBUG 2018-04-11 10:59:57,327 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Users.Dto.UserDto
+DEBUG 2018-04-11 10:59:57,327 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-11 10:59:57,327 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Roles.Dto.PermissionDto
+DEBUG 2018-04-11 10:59:57,327 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Roles.Dto.RoleDto
+DEBUG 2018-04-11 10:59:57,328 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-11 10:59:57,328 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-04-11 10:59:57,328 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.MultiTenancy.Dto.TenantDto
+DEBUG 2018-04-11 10:59:57,328 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-04-11 10:59:57,328 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-04-11 11:00:00,476 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-04-11 11:00:00,478 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-04-11 11:00:00,482 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-04-11 11:00:00,486 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-04-11 11:00:00,490 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-04-11 11:00:00,492 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2018-04-11 11:00:08,969 [10   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+ERROR 2018-04-11 11:00:16,887 [5    ] Abp.Logging.LogHelper                    - Can not find file for: ~/Content/bootstrap-cosmo.min.css! System.NullReferenceException: Object reference not set to an instance of an object.
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioningForEmbeddedFile(String path)
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioning(String path)
+ERROR 2018-04-11 11:00:16,888 [5    ] Abp.Logging.LogHelper                    - Can not find file for: ~/Content/flags/famfamfam-flags.css! System.NullReferenceException: Object reference not set to an instance of an object.
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioningForEmbeddedFile(String path)
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioning(String path)
+ERROR 2018-04-11 11:00:16,888 [5    ] Abp.Logging.LogHelper                    - Can not find file for: ~/Scripts/sweetalert/sweet-alert.css! System.NullReferenceException: Object reference not set to an instance of an object.
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioningForEmbeddedFile(String path)
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioning(String path)
+ERROR 2018-04-11 11:00:16,894 [5    ] Abp.Logging.LogHelper                    - Can not find file for: ~/Scripts/others/html5shiv.js! System.NullReferenceException: Object reference not set to an instance of an object.
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioningForEmbeddedFile(String path)
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioning(String path)
+ERROR 2018-04-11 11:00:16,894 [5    ] Abp.Logging.LogHelper                    - Can not find file for: ~/Scripts/others/respond.min.js! System.NullReferenceException: Object reference not set to an instance of an object.
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioningForEmbeddedFile(String path)
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioning(String path)
+ERROR 2018-04-11 11:00:16,896 [5    ] Abp.Logging.LogHelper                    - Can not find file for: ~/Scripts/jquery-3.2.1.min.js! System.NullReferenceException: Object reference not set to an instance of an object.
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioningForEmbeddedFile(String path)
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioning(String path)
+ERROR 2018-04-11 11:00:16,900 [5    ] Abp.Logging.LogHelper                    - Can not find file for: ~/Scripts/others/spinjs/spin.js! System.NullReferenceException: Object reference not set to an instance of an object.
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioningForEmbeddedFile(String path)
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioning(String path)
+ERROR 2018-04-11 11:00:16,901 [5    ] Abp.Logging.LogHelper                    - Can not find file for: ~/Scripts/others/spinjs/jquery.spin.js! System.NullReferenceException: Object reference not set to an instance of an object.
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioningForEmbeddedFile(String path)
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioning(String path)
+ERROR 2018-04-11 11:00:16,901 [5    ] Abp.Logging.LogHelper                    - Can not find file for: ~/Scripts/sweetalert/sweet-alert.min.js! System.NullReferenceException: Object reference not set to an instance of an object.
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioningForEmbeddedFile(String path)
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioning(String path)
+WARN  2018-04-11 11:00:30,008 [6    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+ERROR 2018-04-11 11:01:31,654 [16   ] hareAdmin.Web.Controllers.MainController - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_Main_Main_cshtml.Execute() in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\8d02e09d\52ff65d6\App_Web_1r0dm2d1.0.cs:line 0
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.StartPage.RunPage()
+   at System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+DEBUG 2018-04-11 11:06:37,723 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-11 11:06:37,743 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-04-11 11:06:37,755 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.Web.ShareAdminWebModule, ShareAdmin.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:06:37,758 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.ShareAdminDataModule, ShareAdmin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:06:37,758 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:06:37,758 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:06:37,759 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:06:37,759 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:06:37,759 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:06:37,759 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:06:37,760 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.ShareAdminCoreModule, ShareAdmin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:06:37,760 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.ShareAdminApplicationModule, ShareAdmin.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:06:37,760 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:06:37,760 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.Api.ShareAdminWebApiModule, ShareAdmin.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:06:37,760 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:06:37,761 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:06:37,761 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:06:37,761 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:06:37,761 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:06:37,766 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-04-11 11:06:38,185 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 11:06:38,185 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 11:06:38,185 [1    ] o.Configuration.LanguageManagementConfig - Converted ShareAdmin (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 11:06:38,185 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 11:06:38,645 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ShareAdmin.EntityFramework.ShareAdminDbContext, ShareAdmin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:06:42,666 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-11 11:06:42,724 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-11 11:06:42,736 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-11 11:06:42,739 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ShareAdmin
+DEBUG 2018-04-11 11:06:42,742 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-11 11:06:42,846 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-11 11:06:42,930 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-04-11 11:06:42,930 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-11 11:06:42,935 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-11 11:06:42,935 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Users.Dto.CreateUserDto
+DEBUG 2018-04-11 11:06:42,935 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Users.Dto.UpdateUserDto
+DEBUG 2018-04-11 11:06:42,935 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Users.Dto.UserDto
+DEBUG 2018-04-11 11:06:42,935 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-11 11:06:42,935 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Roles.Dto.PermissionDto
+DEBUG 2018-04-11 11:06:42,935 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Roles.Dto.RoleDto
+DEBUG 2018-04-11 11:06:42,935 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-11 11:06:42,936 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-04-11 11:06:42,936 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.MultiTenancy.Dto.TenantDto
+DEBUG 2018-04-11 11:06:42,936 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-04-11 11:06:42,936 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-04-11 11:06:45,314 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-04-11 11:06:45,316 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-04-11 11:06:45,319 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-04-11 11:06:45,321 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-04-11 11:06:45,324 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-04-11 11:06:45,326 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2018-04-11 11:06:54,075 [7    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+ERROR 2018-04-11 11:07:04,214 [10   ] Abp.Logging.LogHelper                    - Can not find file for: ~/Content/bootstrap-cosmo.min.css! System.NullReferenceException: Object reference not set to an instance of an object.
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioningForEmbeddedFile(String path)
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioning(String path)
+ERROR 2018-04-11 11:07:04,218 [10   ] Abp.Logging.LogHelper                    - Can not find file for: ~/Content/flags/famfamfam-flags.css! System.NullReferenceException: Object reference not set to an instance of an object.
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioningForEmbeddedFile(String path)
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioning(String path)
+ERROR 2018-04-11 11:07:04,219 [10   ] Abp.Logging.LogHelper                    - Can not find file for: ~/Scripts/sweetalert/sweet-alert.css! System.NullReferenceException: Object reference not set to an instance of an object.
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioningForEmbeddedFile(String path)
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioning(String path)
+ERROR 2018-04-11 11:07:04,229 [10   ] Abp.Logging.LogHelper                    - Can not find file for: ~/Scripts/others/html5shiv.js! System.NullReferenceException: Object reference not set to an instance of an object.
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioningForEmbeddedFile(String path)
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioning(String path)
+ERROR 2018-04-11 11:07:04,229 [10   ] Abp.Logging.LogHelper                    - Can not find file for: ~/Scripts/others/respond.min.js! System.NullReferenceException: Object reference not set to an instance of an object.
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioningForEmbeddedFile(String path)
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioning(String path)
+ERROR 2018-04-11 11:07:04,239 [10   ] Abp.Logging.LogHelper                    - Can not find file for: ~/Scripts/jquery-3.2.1.min.js! System.NullReferenceException: Object reference not set to an instance of an object.
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioningForEmbeddedFile(String path)
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioning(String path)
+ERROR 2018-04-11 11:07:04,245 [10   ] Abp.Logging.LogHelper                    - Can not find file for: ~/Scripts/others/spinjs/spin.js! System.NullReferenceException: Object reference not set to an instance of an object.
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioningForEmbeddedFile(String path)
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioning(String path)
+ERROR 2018-04-11 11:07:04,247 [10   ] Abp.Logging.LogHelper                    - Can not find file for: ~/Scripts/others/spinjs/jquery.spin.js! System.NullReferenceException: Object reference not set to an instance of an object.
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioningForEmbeddedFile(String path)
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioning(String path)
+ERROR 2018-04-11 11:07:04,254 [10   ] Abp.Logging.LogHelper                    - Can not find file for: ~/Scripts/sweetalert/sweet-alert.min.js! System.NullReferenceException: Object reference not set to an instance of an object.
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioningForEmbeddedFile(String path)
+   at Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioning(String path)
+DEBUG 2018-04-11 11:12:14,675 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-11 11:12:14,697 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-04-11 11:12:14,715 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.Web.ShareAdminWebModule, ShareAdmin.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:12:14,718 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.ShareAdminDataModule, ShareAdmin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:12:14,718 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:12:14,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:12:14,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:12:14,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:12:14,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:12:14,720 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:12:14,720 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.ShareAdminCoreModule, ShareAdmin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:12:14,720 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.ShareAdminApplicationModule, ShareAdmin.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:12:14,720 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:12:14,720 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.Api.ShareAdminWebApiModule, ShareAdmin.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:12:14,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:12:14,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:12:14,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:12:14,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:12:14,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:12:14,726 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-04-11 11:12:15,092 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 11:12:15,092 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 11:12:15,092 [1    ] o.Configuration.LanguageManagementConfig - Converted ShareAdmin (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 11:12:15,092 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 11:12:15,521 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ShareAdmin.EntityFramework.ShareAdminDbContext, ShareAdmin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:12:18,705 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-11 11:12:18,752 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-11 11:12:18,765 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-11 11:12:18,772 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ShareAdmin
+DEBUG 2018-04-11 11:12:18,777 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-11 11:12:18,870 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-11 11:12:18,943 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-04-11 11:12:18,943 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-11 11:12:18,948 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-11 11:12:18,948 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Users.Dto.CreateUserDto
+DEBUG 2018-04-11 11:12:18,948 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Users.Dto.UpdateUserDto
+DEBUG 2018-04-11 11:12:18,948 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Users.Dto.UserDto
+DEBUG 2018-04-11 11:12:18,948 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-11 11:12:18,948 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Roles.Dto.PermissionDto
+DEBUG 2018-04-11 11:12:18,949 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Roles.Dto.RoleDto
+DEBUG 2018-04-11 11:12:18,949 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-11 11:12:18,949 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-04-11 11:12:18,949 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.MultiTenancy.Dto.TenantDto
+DEBUG 2018-04-11 11:12:18,949 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-04-11 11:12:18,949 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-04-11 11:12:20,842 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-04-11 11:12:20,843 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-04-11 11:12:20,844 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-04-11 11:12:20,846 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-04-11 11:12:20,847 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-04-11 11:12:20,848 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2018-04-11 11:12:27,039 [8    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+ERROR 2018-04-11 11:12:55,827 [7    ] hareAdmin.Web.Controllers.MainController - Cannot convert null to 'bool' because it is a non-nullable value type
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot convert null to 'bool' because it is a non-nullable value type
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at ASP._Page_Views_Main__Layout_cshtml.Execute() in c:\Git\ShareAdmin\ShareAdmin.Web\Views\Main\_Layout.cshtml:line 39
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass40_0.<RenderPageCore>b__0(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+DEBUG 2018-04-11 11:33:57,663 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-11 11:33:57,680 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-04-11 11:33:57,692 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.Web.ShareAdminWebModule, ShareAdmin.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:33:57,695 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.ShareAdminDataModule, ShareAdmin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:33:57,695 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:33:57,696 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:33:57,696 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:33:57,696 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:33:57,697 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:33:57,697 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:33:57,698 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.ShareAdminCoreModule, ShareAdmin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:33:57,698 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.ShareAdminApplicationModule, ShareAdmin.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:33:57,699 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:33:57,699 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.Api.ShareAdminWebApiModule, ShareAdmin.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:33:57,699 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:33:57,699 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:33:57,700 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:33:57,700 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:33:57,700 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:33:57,704 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-04-11 11:33:58,107 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 11:33:58,107 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 11:33:58,107 [1    ] o.Configuration.LanguageManagementConfig - Converted ShareAdmin (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 11:33:58,107 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 11:33:58,528 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ShareAdmin.EntityFramework.ShareAdminDbContext, ShareAdmin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 11:34:02,308 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-11 11:34:02,362 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-11 11:34:02,376 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-11 11:34:02,380 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ShareAdmin
+DEBUG 2018-04-11 11:34:02,385 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-11 11:34:02,488 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-11 11:34:02,568 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-04-11 11:34:02,568 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-11 11:34:02,573 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-11 11:34:02,573 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Users.Dto.CreateUserDto
+DEBUG 2018-04-11 11:34:02,573 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Users.Dto.UpdateUserDto
+DEBUG 2018-04-11 11:34:02,573 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Users.Dto.UserDto
+DEBUG 2018-04-11 11:34:02,573 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-11 11:34:02,574 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Roles.Dto.PermissionDto
+DEBUG 2018-04-11 11:34:02,574 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Roles.Dto.RoleDto
+DEBUG 2018-04-11 11:34:02,574 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-11 11:34:02,574 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-04-11 11:34:02,574 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.MultiTenancy.Dto.TenantDto
+DEBUG 2018-04-11 11:34:02,574 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-04-11 11:34:02,574 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-04-11 11:34:04,543 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-04-11 11:34:04,545 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-04-11 11:34:04,546 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-04-11 11:34:04,547 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-04-11 11:34:04,548 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-04-11 11:34:04,549 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-04-11 16:32:30,790 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-11 16:32:30,813 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-04-11 16:32:30,827 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.Web.ShareAdminWebModule, ShareAdmin.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:32:30,829 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.ShareAdminDataModule, ShareAdmin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:32:30,830 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:32:30,830 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:32:30,830 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:32:30,830 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:32:30,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:32:30,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:32:30,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.ShareAdminCoreModule, ShareAdmin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:32:30,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.ShareAdminApplicationModule, ShareAdmin.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:32:30,832 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:32:30,832 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.Api.ShareAdminWebApiModule, ShareAdmin.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:32:30,832 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:32:30,832 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:32:30,832 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:32:30,833 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:32:30,833 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:32:30,838 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-04-11 16:32:31,319 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 16:32:31,319 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 16:32:31,319 [1    ] o.Configuration.LanguageManagementConfig - Converted ShareAdmin (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 16:32:31,319 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 16:32:31,871 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ShareAdmin.EntityFramework.ShareAdminDbContext, ShareAdmin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:32:35,758 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-11 16:32:35,799 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-11 16:32:35,809 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-11 16:32:35,813 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ShareAdmin
+DEBUG 2018-04-11 16:32:35,816 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-11 16:32:35,939 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-11 16:32:36,008 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-04-11 16:32:36,008 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-11 16:32:36,013 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-11 16:32:36,013 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Users.Dto.CreateUserDto
+DEBUG 2018-04-11 16:32:36,013 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Users.Dto.UpdateUserDto
+DEBUG 2018-04-11 16:32:36,013 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Users.Dto.UserDto
+DEBUG 2018-04-11 16:32:36,014 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-11 16:32:36,014 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Roles.Dto.PermissionDto
+DEBUG 2018-04-11 16:32:36,014 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Roles.Dto.RoleDto
+DEBUG 2018-04-11 16:32:36,014 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-11 16:32:36,014 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-04-11 16:32:36,014 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.MultiTenancy.Dto.TenantDto
+DEBUG 2018-04-11 16:32:36,014 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-04-11 16:32:36,014 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-04-11 16:32:37,794 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-04-11 16:32:37,796 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-04-11 16:32:37,797 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-04-11 16:32:37,798 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-04-11 16:32:37,800 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-04-11 16:32:37,801 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-04-11 16:40:31,527 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-11 16:40:31,550 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-04-11 16:40:31,565 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.Web.ShareAdminWebModule, ShareAdmin.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:40:31,569 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.ShareAdminDataModule, ShareAdmin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:40:31,569 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:40:31,570 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:40:31,570 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:40:31,570 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:40:31,571 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:40:31,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:40:31,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.ShareAdminCoreModule, ShareAdmin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:40:31,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.ShareAdminApplicationModule, ShareAdmin.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:40:31,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:40:31,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.Api.ShareAdminWebApiModule, ShareAdmin.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:40:31,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:40:31,574 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:40:31,574 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:40:31,574 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:40:31,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:40:31,586 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-04-11 16:40:32,099 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 16:40:32,099 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 16:40:32,099 [1    ] o.Configuration.LanguageManagementConfig - Converted ShareAdmin (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 16:40:32,099 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 16:40:32,736 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ShareAdmin.EntityFramework.ShareAdminDbContext, ShareAdmin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:40:38,367 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-11 16:40:38,419 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-11 16:40:38,434 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-11 16:40:38,438 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ShareAdmin
+DEBUG 2018-04-11 16:40:38,442 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-11 16:40:38,571 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-11 16:40:38,659 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-04-11 16:40:38,659 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-11 16:40:38,666 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-11 16:40:38,666 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Users.Dto.CreateUserDto
+DEBUG 2018-04-11 16:40:38,666 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Users.Dto.UpdateUserDto
+DEBUG 2018-04-11 16:40:38,667 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Users.Dto.UserDto
+DEBUG 2018-04-11 16:40:38,667 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-11 16:40:38,667 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Roles.Dto.PermissionDto
+DEBUG 2018-04-11 16:40:38,667 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Roles.Dto.RoleDto
+DEBUG 2018-04-11 16:40:38,667 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-11 16:40:38,667 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-04-11 16:40:38,667 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.MultiTenancy.Dto.TenantDto
+DEBUG 2018-04-11 16:40:38,667 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-04-11 16:40:38,667 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-04-11 16:40:40,650 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-04-11 16:40:40,652 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-04-11 16:40:40,653 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-04-11 16:40:40,654 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-04-11 16:40:40,655 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-04-11 16:40:40,657 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2018-04-11 16:40:47,585 [10   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2018-04-11 16:43:39,020 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-11 16:43:39,036 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-04-11 16:43:39,044 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.Web.ShareAdminWebModule, ShareAdmin.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:43:39,046 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.ShareAdminDataModule, ShareAdmin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:43:39,046 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:43:39,046 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:43:39,047 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:43:39,047 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:43:39,047 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:43:39,047 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:43:39,048 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.ShareAdminCoreModule, ShareAdmin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:43:39,048 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.ShareAdminApplicationModule, ShareAdmin.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:43:39,048 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:43:39,048 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.Api.ShareAdminWebApiModule, ShareAdmin.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:43:39,048 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:43:39,048 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:43:39,049 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:43:39,049 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:43:39,049 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:43:39,055 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-04-11 16:43:39,423 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 16:43:39,423 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 16:43:39,423 [1    ] o.Configuration.LanguageManagementConfig - Converted ShareAdmin (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 16:43:39,423 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 16:43:39,885 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ShareAdmin.EntityFramework.ShareAdminDbContext, ShareAdmin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:43:43,254 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-11 16:43:43,298 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-11 16:43:43,310 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-11 16:43:43,314 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ShareAdmin
+DEBUG 2018-04-11 16:43:43,318 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-11 16:43:43,419 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-11 16:43:43,490 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-04-11 16:43:43,490 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-11 16:43:43,494 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-11 16:43:43,494 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Users.Dto.CreateUserDto
+DEBUG 2018-04-11 16:43:43,495 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Users.Dto.UpdateUserDto
+DEBUG 2018-04-11 16:43:43,495 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Users.Dto.UserDto
+DEBUG 2018-04-11 16:43:43,495 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-11 16:43:43,495 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Roles.Dto.PermissionDto
+DEBUG 2018-04-11 16:43:43,495 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Roles.Dto.RoleDto
+DEBUG 2018-04-11 16:43:43,495 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-11 16:43:43,495 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-04-11 16:43:43,495 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.MultiTenancy.Dto.TenantDto
+DEBUG 2018-04-11 16:43:43,495 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-04-11 16:43:43,495 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-04-11 16:43:45,391 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-04-11 16:43:45,392 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-04-11 16:43:45,393 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-04-11 16:43:45,395 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-04-11 16:43:45,396 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-04-11 16:43:45,397 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2018-04-11 16:43:51,699 [7    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2018-04-11 16:45:47,315 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-11 16:45:47,334 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-04-11 16:45:47,343 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.Web.ShareAdminWebModule, ShareAdmin.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:45:47,345 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.ShareAdminDataModule, ShareAdmin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:45:47,345 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:45:47,346 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:45:47,346 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:45:47,347 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:45:47,347 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:45:47,347 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:45:47,348 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.ShareAdminCoreModule, ShareAdmin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:45:47,348 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.ShareAdminApplicationModule, ShareAdmin.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:45:47,348 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:45:47,348 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ShareAdmin.Api.ShareAdminWebApiModule, ShareAdmin.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:45:47,348 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:45:47,348 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:45:47,349 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:45:47,349 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:45:47,349 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:45:47,354 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-04-11 16:45:47,908 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 16:45:47,908 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 16:45:47,908 [1    ] o.Configuration.LanguageManagementConfig - Converted ShareAdmin (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 16:45:47,908 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-11 16:45:49,026 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ShareAdmin.EntityFramework.ShareAdminDbContext, ShareAdmin.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-11 16:45:53,481 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-11 16:45:53,535 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-11 16:45:53,552 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-11 16:45:53,556 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ShareAdmin
+DEBUG 2018-04-11 16:45:53,560 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-11 16:45:53,719 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-11 16:45:53,817 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-04-11 16:45:53,817 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-11 16:45:53,822 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-11 16:45:53,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Users.Dto.CreateUserDto
+DEBUG 2018-04-11 16:45:53,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Users.Dto.UpdateUserDto
+DEBUG 2018-04-11 16:45:53,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Users.Dto.UserDto
+DEBUG 2018-04-11 16:45:53,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-11 16:45:53,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Roles.Dto.PermissionDto
+DEBUG 2018-04-11 16:45:53,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Roles.Dto.RoleDto
+DEBUG 2018-04-11 16:45:53,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-11 16:45:53,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-04-11 16:45:53,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.MultiTenancy.Dto.TenantDto
+DEBUG 2018-04-11 16:45:53,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-04-11 16:45:53,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ShareAdmin.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-04-11 16:45:56,332 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-04-11 16:45:56,336 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-04-11 16:45:56,339 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-04-11 16:45:56,343 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-04-11 16:45:56,347 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-04-11 16:45:56,360 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ShareAdmin.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2018-04-11 16:46:04,763 [5    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+WARN  2018-04-11 16:54:23,045 [86   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2018-04-11 17:07:49,110 [35   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"cbde803c-88b3-4399-9ad6-fa62c307faf1","IpAddress":"10.208.232.38","TenantId":null,"UserId":1,"ConnectTime":"2018-04-11T17:07:49.0981357+02:00","Properties":{}}
+DEBUG 2018-04-11 17:07:49,298 [74   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: cbde803c-88b3-4399-9ad6-fa62c307faf1
+WARN  2018-04-11 17:09:26,735 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'Refresh' in localization source 'ShareAdmin'!
+DEBUG 2018-04-11 17:10:09,079 [35   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: cbde803c-88b3-4399-9ad6-fa62c307faf1

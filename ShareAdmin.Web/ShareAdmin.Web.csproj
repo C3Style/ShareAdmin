@@ -502,6 +502,13 @@
     <Content Include="Content\toastr.css" />
     <Content Include="Content\toastr.min.css" />
     <Content Include="Content\ui-bootstrap-csp.css" />
+    <Content Include="css\main-site\animate.css" />
+    <Content Include="css\main-site\bootstrap.css" />
+    <Content Include="css\main-site\font-awesome.css" />
+    <Content Include="css\main-site\magnific-popup.css" />
+    <Content Include="css\main-site\owl.carousel.css" />
+    <Content Include="css\main-site\owl.theme.css" />
+    <Content Include="css\main-site\style.css" />
     <Content Include="css\materialize.css" />
     <Content Include="css\style.css" />
     <Content Include="css\style.min.css">
@@ -556,10 +563,31 @@
     <Content Include="App\Main\views\home\home.cshtml" />
     <Content Include="App\Main\views\about\about.cshtml" />
     <Content Include="App\Main\web.config" />
+    <Content Include="images\main\home-bg.jpg" />
+    <Content Include="images\main\home-img.png" />
+    <Content Include="images\main\newsletter-bg.jpg" />
+    <Content Include="images\main\screenshot-img1.jpg" />
+    <Content Include="images\main\screenshot-img2.jpg" />
+    <Content Include="images\main\screenshot-img3.jpg" />
+    <Content Include="images\main\screenshot-img4.jpg" />
+    <Content Include="images\main\screenshot-img5.jpg" />
+    <Content Include="images\main\screenshot-img6.jpg" />
+    <Content Include="images\main\screenshot-img7.jpg" />
+    <Content Include="images\main\screenshot-img8.jpg" />
+    <Content Include="images\main\team-img1.jpg" />
+    <Content Include="images\main\team-img2.jpg" />
     <Content Include="images\user-img-background.jpg" />
     <Content Include="images\user.png" />
     <Content Include="js\admin.js" />
     <Content Include="js\helpers.js" />
+    <Content Include="js\main-site\bootstrap.js" />
+    <Content Include="js\main-site\custom.js" />
+    <Content Include="js\main-site\jquery.js" />
+    <Content Include="js\main-site\jquery.magnific-popup.js" />
+    <Content Include="js\main-site\magnific-popup-options.js" />
+    <Content Include="js\main-site\owl.carousel.js" />
+    <Content Include="js\main-site\smoothscroll.js" />
+    <Content Include="js\main-site\wow.js" />
     <Content Include="js\main.js" />
     <Content Include="js\script.js" />
     <Content Include="lib\animate.css\animate.css" />
@@ -3525,6 +3553,7 @@
     <Compile Include="App_Start\Startup.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MainController.cs" />
     <Compile Include="Controllers\ShareAdminControllerBase.cs" />
     <Compile Include="Controllers\Results\ChallengeResult.cs" />
     <Compile Include="Global.asax.cs">
@@ -3668,6 +3697,9 @@
     <Content Include="Scripts\angular-animate.min.js.map" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+    <Content Include="Views\Main\Main.cshtml" />
+    <Content Include="Views\Main\_Layout.cshtml" />
+    <Content Include="Views\Main\_ViewStart.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
