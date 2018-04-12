@@ -145,14 +145,17 @@ namespace ShareAdmin.Web
             // For main site
             bundles.Add(
                 new StyleBundle("~/Bundles/main-site/css")
-                    .IncludeDirectory("~/css/main-site", "*.css", true)
-                    .IncludeDirectory("~/css/main-site", "*.min.css", true)
+                    .Include("~/lib/bootstrap/dist/css/bootstrap.css", new CssRewriteUrlTransform())
+                    .Include("~/lib/font-awesome/css/font-awesome.css", new CssRewriteUrlTransform())
+                    .Include("~/css/main-site.css")
                 );
 
             bundles.Add(
                 new ScriptBundle("~/Bundles/main-site/js")
+                    .Include(
+                        "~/lib/jquery/dist/jquery.js",
+                        "~/lib/bootstrap/dist/js/bootstrap.js")
                     .IncludeDirectory("~/js/main-site", "*.js", true)
-                    .IncludeDirectory("~/js/main-site", "*.min.js", true)
             );
 
         }

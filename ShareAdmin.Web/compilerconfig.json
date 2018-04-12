@@ -6,5 +6,9 @@
   {
     "outputFile": "css/style.css",
     "inputFile": "scss/style.scss"
+  },
+  {
+    "outputFile": "css/main-site.css",
+    "inputFile": "scss/main-site.scss"
   }
 ]
